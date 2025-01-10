@@ -1,3 +1,4 @@
+EMBEDDING_MODEL_NAME = "thenlper/gte-small"
 def knowledge_vector_database(docs_processed, EMBEDDING_MODEL_NAME):
     embedding_model = HuggingFaceEmbeddings(
         model_name=EMBEDDING_MODEL_NAME,
